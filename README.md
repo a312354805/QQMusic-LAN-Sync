@@ -4,6 +4,26 @@ QQMusic LAN Sync 是一个面向 Windows 的局域网音乐同步工具。运行
 
 项目使用 Tauri 2 构建原生 Windows 桌面应用，不依赖浏览器页面、二维码或云端中转服务。一个安装包同时支持主机和客户端模式。
 
+## 界面预览
+
+### 主机控制台
+
+主机端读取 QQ 音乐状态并向局域网客户端同步播放进度、逐字歌词和控制权限。
+
+![QQMusic LAN Sync 主机控制台](./docs/screenshots/host-dashboard.png)
+
+### 客户端同步与连接
+
+| 客户端同步播放 | 自动发现与手动连接 |
+| --- | --- |
+| ![客户端同步播放界面](./docs/screenshots/client-dashboard.png) | ![客户端连接管理界面](./docs/screenshots/client-connection.png) |
+
+### 桌面歌词设置
+
+| 桌面歌词实时预览 | 配色、字体与排版 |
+| --- | --- |
+| ![桌面歌词显示设置](./docs/screenshots/desktop-lyrics-settings.png) | ![桌面歌词配色和字体设置](./docs/screenshots/desktop-lyrics-presets.png) |
+
 ## 主要功能
 
 - 主机/客户端角色可在运行时切换
